@@ -1,0 +1,24 @@
+{
+  "package-name": "linktime-anomaly-detection",
+  "package-version": "0.9",
+  "git-branch": "master",
+  "docker-build": true,
+  "dependencies": {},
+  "servers": [{
+    "server-name": "tianyu2",
+    "server-endpoint": "http://192.168.90.21:8080/v2/artifacts"
+  }, {
+    "server-name": "office",
+    "server-endpoint": "http://192.168.105.246:8080/v2/artifacts"
+  }, {
+    "server-name": "tianyu",
+    "server-endpoint": "http://172.20.4.212:8000"
+  }, {
+    "server-name": "awsProd",
+    "server-endpoint": "http://172.31.60.125:8000"
+  },
+  {
+    "server-name": "csaftop",
+    "server-endpoint": "http://192.168.5.15:8080/v2/artifacts"
+  }]
+}

@@ -1,0 +1,45 @@
+.col-4 {
+  padding: 1rem;
+}
+
+.products .ant-input-affix-wrapper {
+  height: 100%;
+}
+
+.products .ant-input-affix-wrapper i {
+  zoom: 3;
+}
+
+.products input {
+  padding-left: 70px !important;
+  font-size: 2rem;
+  background-color: rgba(242, 242, 242, 1);
+  border: none;
+  outline: none;
+}
+
+.products input:hover {
+  border: none;
+  outline: none;
+}
+.products input:focus {
+  border: none !important;
+  outline: none;
+}
+
+.product-card .ant-card-body {
+  padding: 10px;
+}
+
+.product-card .ant-card {
+  height: 250px;
+}
+
+.search-bar {
+  padding: 1rem;
+  position: fixed;
+  top: 1rem;
+  width: 100%;
+  z-index: 9999;
+  background-color: rgba(242, 242, 242, 1);
+}
